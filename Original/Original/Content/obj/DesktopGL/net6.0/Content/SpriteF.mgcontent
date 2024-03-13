@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SourceFile>C:/Users/André Azevedo/source/repos/TDV/TDV-game-29848/Original/Original/Content/SpriteF.spritefont</SourceFile>
+  <SourceTime>2018-12-08T16:35:46+00:00</SourceTime>
+  <DestFile>C:/Users/André Azevedo/source/repos/TDV/TDV-game-29848/Original/Original/Content/bin/DesktopGL/Content/SpriteF.xnb</DestFile>
+  <DestTime>2024-03-13T12:09:54.7432163+00:00</DestTime>
+  <Importer>FontDescriptionImporter</Importer>
+  <ImporterTime>2022-07-26T12:44:56+01:00</ImporterTime>
+  <Processor>FontDescriptionProcessor</Processor>
+  <ProcessorTime>2022-07-26T12:44:56+01:00</ProcessorTime>
+  <Parameters>
+    <Key>PremultiplyAlpha</Key>
+    <Value>True</Value>
+  </Parameters>
+  <Parameters>
+    <Key>TextureFormat</Key>
+    <Value>Compressed</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>

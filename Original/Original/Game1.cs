@@ -8,6 +8,7 @@ namespace Original
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
+        private SpriteFont font;
 
         public Game1()
         {
@@ -26,6 +27,7 @@ namespace Original
         protected override void LoadContent()
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
+            font = Content.Load<SpriteFont>("SpriteF"); //Use the name of sprite font file ('File')
 
             // TODO: use this.Content to load your game content here
         }
@@ -42,8 +44,10 @@ namespace Original
 
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.CornflowerBlue);
-
+            GraphicsDevice.Clear(Color.LightPink);
+            _spriteBatch.Begin();
+            _spriteBatch.DrawString(font, "Minecraft \nPink Edition", new Vector2(100, 100), Color.Pink); 
+            _spriteBatch.End();
             // TODO: Add your drawing code here
 
             base.Draw(gameTime);

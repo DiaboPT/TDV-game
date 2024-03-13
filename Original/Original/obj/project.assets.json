@@ -107,11 +107,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\André Azevedo\\source\\repos\\[TDV] Técnicas de Desenvolvimento Videojogos\\Original\\Original\\Original.csproj",
+      "projectUniqueName": "C:\\Users\\André Azevedo\\source\\repos\\TDV\\TDV-game-29848\\Original\\Original\\Original.csproj",
       "projectName": "Original",
-      "projectPath": "C:\\Users\\André Azevedo\\source\\repos\\[TDV] Técnicas de Desenvolvimento Videojogos\\Original\\Original\\Original.csproj",
+      "projectPath": "C:\\Users\\André Azevedo\\source\\repos\\TDV\\TDV-game-29848\\Original\\Original\\Original.csproj",
       "packagesPath": "C:\\Users\\André Azevedo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\André Azevedo\\source\\repos\\[TDV] Técnicas de Desenvolvimento Videojogos\\Original\\Original\\obj\\",
+      "outputPath": "C:\\Users\\André Azevedo\\source\\repos\\TDV\\TDV-game-29848\\Original\\Original\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\André Azevedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
