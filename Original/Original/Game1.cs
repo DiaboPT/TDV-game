@@ -44,9 +44,9 @@ namespace Original
 
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.LightPink);
+            GraphicsDevice.Clear(Color.Pink);
             _spriteBatch.Begin();
-            _spriteBatch.DrawString(font, "Minecraft \nPink Edition", new Vector2(100, 100), Color.Pink); 
+            _spriteBatch.DrawString(font, "Minecraft\nPink Edition", new Vector2(100, 100), Color.DeepPink); 
             _spriteBatch.End();
             // TODO: Add your drawing code here
 
