@@ -1,26 +1,18 @@
 # JetBoxer2D
 
-**JetBox2D** contains both a lightweight _2D engine_ for creating C# games, based on the Monogame framework (https://github.com/MonoGame/MonoGame), and a game sample called JetBoxer that showcases its usage.
+**JetBox2D**  contém tanto um motor 2D leve para criar jogos em C#, baseado no framework Monogame (https://github.com/MonoGame/MonoGame), quanto um exemplo de jogo chamado JetBoxer que demonstra o seu uso.
 
 
-## The JetBox2D engine contains the following: ##
+## O motor JetBox2D contém o seguinte: ##
 
-- **Dynamic Input System** that supports concurrent input from both gamepad, keyboard, and mouse, via a single InputManager with methods such as GetButtonDown(InputAction). Each InputAction (e.g. ShootRight) is created in such a way that you can map to it Gamepad-Right Trigger, Gamepad-A Button, Keyboard-Space Key, and Mouse-Right Click *at the same time*, meaning that any one of those input types will trigger the ShootRight InputAction.
+- **Sistema de Entrada Dinâmica** que suporta entrada concorrente tanto de gamepad, teclado e mouse, via um único InputManager com métodos como GetButtonDown(InputAction). Cada InputAction (por exemplo, ShootRight) é criada de forma a que possa ser mapeada para o gatilho direito do gamepad, botão A do gamepad, tecla de espaço do teclado e clique direito do mouse ao mesmo tempo, o que significa que qualquer um desses tipos de entrada irá acionar a InputAction ShootRight.
 
-- **Animation System**, which can turn a single sprite sheet into loopable (or not) animation, with adjustable speed, size, and methods to retrieve useful information about the current animation, such as its NormalizedTime and whether it ended.
+- **Sistema de Animação**, que pode transformar uma única folha de sprites em uma animação em loop (ou não), com velocidade ajustável, tamanho e métodos para obter informações úteis sobre a animação atual, como seu NormalizedTime e se terminou.
 
-- **Particle System**, which you can use to create custom game effects such as explosions or fire trails.
+- **Sistema de Partículas**, que pode ser utilizado para criar efeitos de jogo personalizados como explosões ou rastros de fogo.
 
-- **Physics Colliders**, for detecting the collisions between the game objects in the game.
+- **Colisores Físicos**, para detectar colisões entre os objetos do jogo.
 
-- **Objects and States**, which are necessary for creating the game's underlying systems (e.g. transition from SplashState to GameplayState).
+- **Objetos e Estados**, que são necessários para criar os sistemas subjacentes do jogo (por exemplo, transição do Estado de Splash para o Estado de Jogabilidade).
 
-- **Custom Extensions**, which can be used to ease the development hassle during the production of the game engine. For example, a wrapper class for Monogame's mouse input, called MouseInput, is used by the Input System to help in mouse input handling.
-  
-
-https://github.com/Rossakis/JetBoxer2D/assets/70864643/c3277572-b19d-4cc9-b7fa-f66a01e6e0c1
-
-
-## SAST Tools
-
-[PVS-Studio](https://pvs-studio.com/en/pvs-studio/?utm_source=website&utm_medium=github&utm_campaign=open_source) - static analyzer for C, C++, C#, and Java code.
+- **Extensões Personalizadas**, que podem ser utilizadas para facilitar o desenvolvimento durante a produção do motor do jogo. Por exemplo, uma classe de envoltório para a entrada do mouse do Monogame, chamada MouseInput, é usada pelo Sistema de Entrada para auxiliar no tratamento da entrada do mouse.
