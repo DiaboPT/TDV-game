@@ -16,3 +16,5 @@
 - **Objetos e Estados**, que são necessários para criar os sistemas subjacentes do jogo (por exemplo, transição do Estado de Splash para o Estado de Jogabilidade).
 
 - **Extensões Personalizadas**, que podem ser utilizadas para facilitar o desenvolvimento durante a produção do motor do jogo. Por exemplo, uma classe de envoltório para a entrada do mouse do Monogame, chamada MouseInput, é usada pelo Sistema de Entrada para auxiliar no tratamento da entrada do mouse.
+
+### Feito Por André Azevedo, nº29848, Turma EDJD 1º ano
